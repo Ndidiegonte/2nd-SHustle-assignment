@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+
+.header{
+    background-image: url(images/restaurant\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 100vh;
+}
+
+.content{
+
+}
+
+.content h1{
+    height: 75px;
+    width: 830px;
+    left: 309px;
+    top: 288px;
+    border-radius: nullpx;
+}
+.content{
+    position: absolute;
+    width: 830px;
+    height: 75px;
+    left: 309px;
+    top: 288px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+
+    color: #FFFFFF;
+}
+
+.content p{
+    height: 62px;
+    width: 822px;
+    left: 309px;
+    top: 412px;
+    border-radius: nullpx;
+
+}
+
+.content{
+    position: absolute;
+    width: 822px;
+    height: 62px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.content.btns{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 460px;
+    top: 548px;
+
+    background: #FFFFFF;
+
+}
+
+
+/*HERE GOES THE CSS FOR MENU PAGE*/
+
+/*.body-menu{
+    background: #E5E5E5;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}*/
+
+.top-row{
+    display: flex;
+    flex-direction: row;
+
+    background-color: black;
+}
+/*.btm-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+.item1{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 243px;
+    top: 154px;
+
+    background-image: url('images/Menu Page/main food/Smashed Avo.jpg');
+    border-radius: 2px;
+}
+
+.item2{   
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 533px;
+    top: 154px;
+
+    background-image: url('images/Menu Page/main food/Yin & Yang.jpg');
+   /* border-radius: 2px;*/
+}
+
+.item3{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 823px;
+    top: 154px;
+
+    background-image: url('images/Menu Page/main food/Pancakes');
+    border-radius: 2px;
+    }
+
+.item4{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 1113px;
+    top: 155px;
+
+    background-image: url('images/Menu Page/main food/Huevos Rancheros.jpg');
+    border-radius: 2px;
+}
+
+.item5{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 244px;
+    top: 498px;
+
+    background-image: url('images/Menu Page/main food/Rancheros (Tofu).jpg');
+    border-radius: 2px;
+
+}
+
+.item6{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 534px;
+    top: 498px;
+
+    background-image: url('images/Menu Page/main food/Breakkie Roll-1.jpg');
+    border-radius: 2px;
+}
+
+.item7{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 824px;
+    top: 498px;
+
+    background-image: url('images/Menu Page/main food/Breakkie Roll-2.jpg');
+    border-radius: 2px;
+}
+
+.item8{
+position: absolute;
+width: 224px;
+height: 275px;
+left: 1114px;
+top: 499px;
+
+background-image: url('images/Menu Page/main food/Burrito.jpg');
+border-radius: 2px;
+}
+
+.div-botm{
+    display: flex;
+    flex-direction: row;
+
+    background-color: black;
+}
